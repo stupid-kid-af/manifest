@@ -7,9 +7,11 @@
     <remote name="xtended"
     	        fetch="https://github.com/Xtended-Devices" />
 
+	    <remote name="don"
+    	        fetch="https://github.com/stupid-kid-af" />
 
     <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="profile" revision="a11/aosp" clone-depth="1" />
-    <project path="vendor/xiaomi/juice" name="proprietary_vendor_xiaomi_juice" remote="profile" revision="a11" clone-depth="1" />
+    <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="don" revision="eleven" clone-depth="1" />
     <project path="kernel/xiaomi/juice" name="kernel_xiaomi_juice" remote="xtended" revision="xtended" clone-depth="1" />
 
 </manifest>
